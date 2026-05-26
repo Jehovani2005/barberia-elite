@@ -173,3 +173,23 @@ input:focus,
 textarea:focus{
     outline:2px solid gold;
 }
+
+.card,
+.btn,
+.navbar a{
+    transition:0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 20px rgba(0,0,0,.5);
+}
+
+.btn:hover{
+    transform:scale(1.05);
+    background:white;
+}
+
+.navbar a:hover{
+    color:gold;
+}
