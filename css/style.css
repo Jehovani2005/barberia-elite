@@ -193,3 +193,33 @@ textarea:focus{
 .navbar a:hover{
     color:gold;
 }
+
+@media(max-width:768px){
+
+    .header{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    .navbar{
+        margin-top:20px;
+    }
+
+    .navbar a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .hero-content h1{
+        font-size:40px;
+    }
+
+    .services{
+        padding:50px 20px;
+    }
+
+    .contact{
+        padding:50px 20px;
+    }
+
+}
