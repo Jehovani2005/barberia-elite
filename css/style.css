@@ -135,14 +135,41 @@ body{
     font-weight:bold;
 }
 
-/* Contacto */
-
-form{
-    padding:30px;
+.contact{
+    padding:100px 80px;
 }
 
-input, textarea{
+.contact h1{
+    text-align:center;
+    margin-bottom:40px;
+    color:gold;
+}
+
+form{
+    max-width:700px;
+    margin:auto;
+}
+
+input,
+textarea{
     width:100%;
-    margin:10px 0;
-    padding:10px;
+    padding:15px;
+    margin-bottom:20px;
+    border:none;
+    border-radius:8px;
+}
+
+textarea{
+    height:150px;
+}
+
+.info-contacto{
+    margin-top:40px;
+    text-align:center;
+    line-height:2;
+}
+
+input:focus,
+textarea:focus{
+    outline:2px solid gold;
 }
